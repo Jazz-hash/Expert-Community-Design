@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Geomanist;
+    src: local('../fonts/Geomanist-Black.woff'), url('../fonts/Geomanist-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: Gotham-Black;
+    src: local('../fonts/Gotham-Black.woff'), url('../fonts/Gotham-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: Intro-Light;
+    src: local('../fonts/Intro-Light.woff'), url('../fonts/Intro-Light.woff') format('woff');
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 10%;
+    font-family: 'Geomanist';
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 80%;
+    font-size: 120px;
+
+}
+
+.carousel-control-next-icon {
+    font-size: 120px;
+}
+
+.display-4 {
+    font-size: 70px;
+}
+
+.courseDiv{
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 19px;
+    color: #343434;
+    margin: 6px 0px;
+    cursor: pointer;
+    transition: 0.7s all;
+}
+
+.courseDiv:hover {
+    background-color: #EA4235;
+    color: #fff;
+    transition: 0.7s all;
+}
+.btn-circle{
+    border-radius: 50%; 
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    outline-color: transparent;
+}
+.btn-social:hover{
+    color: black !important;
+    outline: none !important;
+    border: none !important;
+}
+.btn-social:focus {
+    outline-color: black !important;
+    outline:0 !important;
+}
+.images{
+    width: 130px;
+    height: 130px;
+}
+.menu-btn{
+    border-radius: 50% !important;
+    width: 60px;
+    height: 60px;
+    font-size: 58px;
+}
+
+button:focus, .btn-social:focus {outline:0 !important;}
+*:focus {outline:none !important}
+
+.team-content > p{
+    margin-top: 10px;
+    font-size: 14px !important;
+}
+.team-content > .small{
+    margin-top: -10px;
+    font-size: 11px !important;
+    font-family: 'Century Gothic';
+}
+.small-head{
+    font-size: 29px;
+}
+.head2{
+    font-size: 22px;
+}
+.head3{
+    font-size: 60px;
+}
+
+.contact-page{
+    font-size: 12px;
+}
+.footer-head{
+    font-family: 'Geomanist';
+    font-size: 25px;
+}
+.footer-head2{
+    font-family: 'Geomanist';
+}
+@media (max-width:768px) {
+    .logo{
+        width: 140px;
+        height: 50px;
+    }
+    .logo_2{
+        width: 220px;
+        height: 80px;
+    }
+    .display-4{
+        font-size: 45px;
+    }
+    .small-head{
+        font-size: 25px;
+    }
+    #trigger-overlay{
+        margin-top: 50px;
+    }
+    #trigger-overlay2{
+        margin-top: -10px;
+    }
+    .btn-circle{
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 20px !important;  
+    }
+    .carousel-control-prev, .carousel-control-next{
+        margin-top: 30px;
+        width: 80px;
+        height: 80px;
+    }
+    .head3{
+        font-size: 40px;
+    }
+    .head2{
+        font-size: 15px;
+    }
+    .courseDiv{
+        font-size: 13px;
+    }
+    .images{
+        width: 90px;
+        height: 90px;
+    }
+    .team-content > p{
+        margin-top: 5px;
+        font-size: 12px !important;
+    }
+    .team-content > .small{
+        margin-top: -15px;
+        font-size: 8px !important;
+        font-family: 'Century Gothic';
+    }
+    .contact-page{
+        font-size: 10px;
+    }
+    .btn-social{
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 19px !important;
+        padding: 8px 8px !important;
+
+    }
+    .overlay-close {
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 13px !important;
+        padding: 8px 8px !important;
+    }
+    .footer-head{
+        margin-top: 15px;
+        font-family: 'Geomanist';
+        font-size: 15px;
+    }
+    .footer-head2{
+        font-family: 'Geomanist';
+        font-size: 10px;
+    }
+    .hide1, .hide2{
+        display: none;
+    }
+    .expand{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:1024px){
+    .overlay nav {
+        top: 40%;
+    }   
+    .btn-social{
+        width: 39px !important;
+        height: 39px !important;
+        font-size: 15px !important;
+        padding: 8px 8px !important;
+
+    }
+    .overlay-close {
+        width: 39px !important;
+        height: 39px !important;
+        font-size: 15px !important;
+        padding: 8px 8px !important;
+    } 
+}
+
+
+@media (max-width:1440px){
+    .overlay nav {
+        top: 50%;
+    }   
+     
+}
+
